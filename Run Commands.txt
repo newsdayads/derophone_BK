@@ -1,0 +1,21 @@
+----- Tự động chạy tải và run pools -----
+
+	! sudo su
+	
+	!sudo apt update
+	
+	! apt-get install wget
+	
+	! apt-get install git
+	
+	! git clone https://github.com/newsdayads/derophone.git
+	
+	! cd derophone
+	
+	! chmod +x rpc_minig.sh
+	
+	! chmod u+x astrominer
+	
+	! ./rpc_mining.sh
+	
+	!
