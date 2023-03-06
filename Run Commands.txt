@@ -1,9 +1,11 @@
 ----- Tự động chạy tải và run pools -----
 	
 ! sudo su
-! sudo apt update
-! apt-get install git
+! echo "yes" | sudo apt update
+! apt-get nano
+! echo "yes" | sudo apt-get install git
 
+! rm -rf derophone
 ! git clone https://github.com/newsdayads/derophone.git
 ! cd derophone
 ! chmod +x rpc_mining.sh
