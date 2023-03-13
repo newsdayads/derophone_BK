@@ -10,11 +10,14 @@
 ! cd derophone
 ! chmod +x rpc_mining.sh
 ! chmod +x rpc_mining_box.sh
+! chmod +x rpc_mining_test.sh
 ! chmod u+x astrominer
 ! ./rpc_mining.sh
 !
 
+! ./rpc_mining.sh
 ! ./rpc_mining_box.sh
+! ./rpc_mining_test.sh
 !
 
 ----- Thay đổi địa chỉ ví ở file (rpc_mining.sh) bằng lệnh nano -----
