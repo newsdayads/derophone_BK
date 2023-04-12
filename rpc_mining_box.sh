@@ -4,6 +4,6 @@ while :; do
     rand_name=BS7
     rand_num=$((RANDOM % 9999 + 1))
     "Ví CLI"
-    ./astrominer -w dero1qy9qn24xrqkakc0ftnzv0zlcqztlz973f2ndjsurgnu8cez7rag4gqg5gxje9.$rand_name-$rand_num  -r dero-node-orionure-sg.mysrv.cloud -r1 community-pools.mysrv.cloud:10300 -r2 dero.rabidmining.com:10300 -m 8;
+    ./astrominer -w dero1qy9qn24xrqkakc0ftnzv0zlcqztlz973f2ndjsurgnu8cez7rag4gqg5gxje9.$rand_name-$rand_num  -r dero-node-orionure-sg.mysrv.cloud:10300 -r1 community-pools.mysrv.cloud:10300 -r2 dero.rabidmining.com:10300 -m 8;
     sleep 5;
 done
